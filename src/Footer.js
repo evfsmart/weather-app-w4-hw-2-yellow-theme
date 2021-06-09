@@ -14,7 +14,7 @@ export default function Footer() {
       </a>{" "}
       and is{" "}
       <a
-        href="https://github.com/evfsmart/weather-app-yellow-theme"
+        href="https://github.com/evfsmart/weather-app-w4-hw-2-yellow-theme"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -22,7 +22,7 @@ export default function Footer() {
       </a>{" "}
       and{" "}
       <a
-        href="https://unruffled-leavitt-fb81d4.netlify.app"
+        href="https://stupefied-bartik-a87cda.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >

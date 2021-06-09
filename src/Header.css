@@ -1,0 +1,11 @@
+.Header {
+  background-color: #fff6e6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Header .headerImg {
+  max-width: 40px;
+  margin: 20px 0;
+}

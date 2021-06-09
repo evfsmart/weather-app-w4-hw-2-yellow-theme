@@ -1,0 +1,30 @@
+.WeatherSearch {
+  margin-top: 16px;
+}
+
+.WeatherSearch .btn {
+  background: #fabf58;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+}
+
+.WeatherSearch .btn:hover {
+  background: #fff6e6;
+  border: 1px solid #fce8c6;
+  color: #fabf58;
+}
+
+.WeatherSearch .search-input {
+  background: #fff6e6;
+  border: none;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 20px;
+}

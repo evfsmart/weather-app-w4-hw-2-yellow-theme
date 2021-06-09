@@ -30,8 +30,8 @@ export default function CityAndDetails(props) {
                 <a href="/" className="active">
                   °C{" "}
                 </a>
-                <span className="pipe">| </span>
-                <a href="/">°F</a>
+                {/* <span className="pipe">| </span>
+                <a href="/">°F</a> */}
               </span>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function CityAndDetails(props) {
             <li>
               Last updated: <FormatDate timestamp={props.details.timestamp} />
             </li>
-            <li>Description: {props.details.description}</li>
+            <li>{props.details.description}</li>
           </ul>
         </div>
         <div className="col-6 big-image-and-temperature">
@@ -30,7 +30,7 @@ export default function CityAndDetails(props) {
                 <a href="/" className="active">
                   °C{" "}
                 </a>
-                {/* <span className="pipe">| </span>
+                {/* <span className="pipe">| </span> // Conversion to Fahrenheit from ºF link ** fix later **
                 <a href="/">°F</a> */}
               </span>
             </div>

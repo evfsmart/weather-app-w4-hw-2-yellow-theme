@@ -19,6 +19,8 @@ export default function WeatherSearch() {
       wind: response.data.wind.speed,
       iconSrc: `/img/${response.data.weather[0].icon}.png`,
       timestamp: response.data.dt * 1000,
+      coordsLat: response.data.coord.lat,
+      coordsLon: response.data.coord.lon,
     });
   }
 

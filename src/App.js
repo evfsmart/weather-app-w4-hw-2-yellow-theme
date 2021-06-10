@@ -10,8 +10,6 @@ export default function App() {
       <Header />
       <WeatherSearch />
       <hr />
-      <p>Forecast</p>
-      <hr />
       <Footer />
     </div>
   );

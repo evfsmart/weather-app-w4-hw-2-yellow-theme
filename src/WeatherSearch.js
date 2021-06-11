@@ -4,7 +4,7 @@ import axios from "axios";
 import CityAndDetails from "./CityAndDetails";
 
 export default function WeatherSearch() {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("Paris");
   const [weather, setWeather] = useState({});
   const [loaded, setLoaded] = useState(false);
 
@@ -45,10 +45,6 @@ export default function WeatherSearch() {
     setCity(event.target.value);
   }
 
-  function cityAndDetails() {
-    return <CityAndDetails details={weather} />;
-  }
-
   let form = (
     <form className="mb-3 mt-t" onSubmit={handleSubmit}>
       <div className="row">
@@ -76,7 +72,7 @@ export default function WeatherSearch() {
       <div className="WeatherSearch">
         {form}
         <hr />
-        {cityAndDetails()}
+        <CityAndDetails details={weather} />
       </div>
     );
   } else {

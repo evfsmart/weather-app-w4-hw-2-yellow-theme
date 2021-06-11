@@ -1,6 +1,7 @@
 import React from "react";
 import "./CityAndDetails.css";
 import FormatDate from "./FormatDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function CityAndDetails(props) {
   return (
@@ -25,14 +26,7 @@ export default function CityAndDetails(props) {
               className="temperature-img"
             />
             <div>
-              <span className="temperature">{props.details.temperature}</span>
-              <span className="unit">
-                <a href="/" className="active">
-                  °C{" "}
-                </a>
-                {/* <span className="pipe">| </span> // Conversion to Fahrenheit from ºF link ** fix later **
-                <a href="/">°F</a> */}
-              </span>
+              <WeatherTemperature celsius={props.details.temperature} />
             </div>
           </div>
           <div className="humidity-and-wind">
